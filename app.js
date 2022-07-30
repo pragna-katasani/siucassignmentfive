@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const nodemailer = require("nodemailer");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 const mongoose = require('mongoose');
 
 const url = `mongodb+srv://pragnakatasani:Subbu143@cluster0.yw855.mongodb.net/?retryWrites=true&w=majority`;
